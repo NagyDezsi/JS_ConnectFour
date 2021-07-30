@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nyitolap" style="display: block">
+        <h1>CONNECT FOUR</h1>
+        <h2>Játékszabályok</h2>
+        <div id="jatekszabaly">
+            <p>
+                A <b>Connect four</b> kétszemélyes absztrakt stratégiai táblás játék, az amőba egyik változata. A győzelemhez 4 színünket kell egy vonalba lerakni.
+                A játék egy 7x6-os függőleges kék táblán játszódik, melynek a tetejéből kell bedobálni mindkét játékosnak a saját színét. 
+                A játékosok felülről csúsztatják bele a táblába a saját színeiket – melyek általában piros és sárga korongok –, így a jelrakások lehetőségei is korlátozottak a többi amőba típusú játékhoz képest. Az a játékos nyer, amelyik függőlegesen, vízszintesen, vagy átlósan kirakott négyet a saját színéből.
+            </p>
+        </div>
+
+        <h2>Játékosnevek megadása</h2>
+        <div id="jatekosnevek">
+            1. játékos neve: <input type="text" id="elso" placeholder="1. játékos"><br>
+            <br>
+            2. játékos neve: <input type="text" id="masodik" placeholder="2. játékos"><br>
+            <br>
+        </div>
+
+        <div id="korabbiJatekosok">
+            <ul>Korábbi játékospárok:</ul>
+        </div>
+
+        <div id="startDiv">
+            <input type="button" id="startGomb" value="Start!">
+        </div>
+    </div>
+
+    <div id="jatekoldal" style="display: none;">
+        <h1>CONNECT FOUR</h1>
+        <div id="kovetkezo"></div>
+        <div id="jatektabla">
+            <table>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+                <tr>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                    <td class="cella"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="gombokDiv">
+            <input type="button" id="ujJatekGomb" value="Új játék!">
+            <input type="button" id="visszaGomb" value="Vissza a nyitólapra!">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
