@@ -1,3 +1,3 @@
 # ConnectFour
 
-A "Webprogramozás EA+GY" tárgy egyik követelményére elkészített játék.
+Az ELTE IK "Webprogramozás EA+GY" tárgy egyik követelményére elkészített játék.
